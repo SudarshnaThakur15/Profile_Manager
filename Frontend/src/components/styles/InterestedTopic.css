@@ -1,0 +1,136 @@
+.interested-topic {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 52%;
+    margin-left: 24%;
+  }
+  
+  .interested-topic h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .interested-topic ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .interested-topic li {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  .interested-topic {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .selected-topics {
+    margin: 10px 0;
+  }
+  
+  .topic-tag {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 5px;
+    display: inline-flex;
+    border: 1px solid #007bff;
+    text-align: center;
+  }
+  
+  .topic-tag button {
+    margin-left: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .suggested-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .suggested-tag {
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .suggested-tag:hover {
+    background: #ddd;
+  }
+  
+  /* Manual Topic Entry */
+  .manual-entry {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .manual-entry input {
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background: #333;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .save-button:hover {
+    background: #333;
+  }
+  

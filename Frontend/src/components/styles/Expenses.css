@@ -1,0 +1,28 @@
+.expenses {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .expenses h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .expenses h3 {
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .expenses ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expenses li {
+    color: #777;
+    margin-bottom: 5px;
+  }

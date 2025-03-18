@@ -1,0 +1,174 @@
+.personal-info {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 1px #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+
+}
+.form-group{
+  background-color: #ccc;
+  padding: 5px;
+}
+.overlay {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.modal h2 {
+  margin-top: 0;
+  color: rgba(226, 215, 215, 0.038);
+  text-align: center;
+}
+
+/* Form fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Save & Cancel buttons */
+.save-button {
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.save-button:hover {
+  background-color: #218838;}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.header h2 {
+  color: #333;
+  font-size: 20px;
+}
+
+.header button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #0056b3;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+  min-width: 150px; /* Increased label width for better spacing */
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+.save-button {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.save-button:hover {
+  background: #218838;
+}
+
+.info-display p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #252525;
+}
+
+.info-display strong {
+  color: #b7b2b2;
+  min-width: 100px; /* Ensures labels align properly */
+  display: inline-block;
+}
+strong {
+  font-weight: lighter;
+  color: #514e4e;
+}
