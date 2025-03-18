@@ -4,8 +4,10 @@
   "description": "this is for the API fetching",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node index.js",
+  "build": "echo 'No build step required'",
+  "dev": "nodemon index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SudarshnaThakur15/Profile_Manager.git"
