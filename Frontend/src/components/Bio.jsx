@@ -23,7 +23,7 @@ const Bio = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/bio', {
+      const response = await fetch('http://localhost:5500/api/bio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ bio }),
