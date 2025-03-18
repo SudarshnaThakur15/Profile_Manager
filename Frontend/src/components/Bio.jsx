@@ -23,7 +23,7 @@ const Bio = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5500/api/bio', {
+      const response = await fetch('https://profile-manager-backend.onrender.com/api/bio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ bio }),

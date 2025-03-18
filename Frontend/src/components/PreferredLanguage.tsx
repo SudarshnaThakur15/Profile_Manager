@@ -13,7 +13,7 @@ const PreferredLanguage = () => {
   useEffect(() => {
     const fetchPreferredLanguages = async () => {
       try {
-        const response = await fetch("http://localhost:5500/api/preferred-language");
+        const response = await fetch("https://profile-manager-backend.onrender.com/api/preferred-language");
         const data = await response.json();
         if (data) setLanguages(data.languages);
       } catch (err) {
@@ -36,7 +36,7 @@ const PreferredLanguage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5500/api/preferred-language", {
+      const response = await fetch("https://profile-manager-backend.onrender.com/api/preferred-language", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ languages }),
